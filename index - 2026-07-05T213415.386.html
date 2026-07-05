@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0f1b12" />
+  <meta name="description" content="SOLUTION DIGIYLYFE — une source numérique qui appartient au terrain : loueurs, vendeurs, chauffeurs, bâtisseurs. Visibilité locale, QR, contact direct, paiement direct, 0% commission." />
+  <meta name="keywords" content="DIGIYLYFE, Solution DIGIYLYFE, Saly, Sénégal, métiers du terrain, QR, paiement direct, 0% commission, loueurs, vendeurs, chauffeurs, bâtisseurs, souveraineté numérique" />
+  <meta name="author" content="DIGIYLYFE" />
+
+  <meta property="og:title" content="SOLUTION DIGIYLYFE — La source du terrain" />
+  <meta property="og:description" content="Dans le désert numérique, DIGIYLYFE ouvre une source pour l’indépendance des métiers du terrain." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://digiylyfe.net/wp-content/uploads/2026/07/ChatGPT-Image-5-juil.-2026-20_30_50.png" />
+  <meta property="og:site_name" content="DIGIYLYFE" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SOLUTION DIGIYLYFE" />
+  <meta name="twitter:description" content="La solution existe. Maintenant, il faut la rendre visible." />
+  <meta name="twitter:image" content="https://digiylyfe.net/wp-content/uploads/2026/07/ChatGPT-Image-5-juil.-2026-20_30_50.png" />
+
+  <title>SOLUTION DIGIYLYFE — La source du terrain</title>
+
+  <style>
+    :root{
+      --bg:#08100b;
+      --ink:#fff7e6;
+      --muted:#d9c7a2;
+      --gold:#f4c96a;
+      --gold2:#ffdf91;
+      --green:#1f7a3e;
+      --blue:#36d7d7;
+      --card:rgba(255,247,230,.08);
+      --line:rgba(255,223,145,.22);
+      --shadow:0 24px 80px rgba(0,0,0,.45);
+      --radius:26px;
+      --max:1160px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(244,201,106,.18), transparent 34%),
+        radial-gradient(circle at 90% 12%, rgba(54,215,215,.12), transparent 32%),
+        linear-gradient(180deg,#170f08 0%, #08100b 48%, #050806 100%);
+      line-height:1.55;
+      overflow-x:hidden;
+    }
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--max);margin:auto;padding:0 20px}
+    .topbar{
+      position:sticky;top:0;z-index:10;
+      backdrop-filter: blur(16px);
+      background:rgba(8,16,11,.70);
+      border-bottom:1px solid var(--line);
+    }
+    .nav{
+      min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:18px;
+    }
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.06em}
+    .brand-mark{
+      width:42px;height:42px;border-radius:16px;
+      display:grid;place-items:center;
+      background:linear-gradient(145deg,rgba(244,201,106,.30),rgba(54,215,215,.18));
+      border:1px solid rgba(255,223,145,.38);
+      box-shadow:0 0 30px rgba(244,201,106,.17);
+    }
+    .navlinks{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+    .navlinks a{font-size:14px;color:var(--muted);padding:9px 12px;border-radius:999px}
+    .navlinks a:hover{background:rgba(255,255,255,.08);color:var(--ink)}
+
+    .hero{
+      position:relative;
+      min-height:calc(100vh - 68px);
+      display:grid;align-items:center;
+      padding:58px 0 44px;
+      isolation:isolate;
+    }
+    .hero:before{
+      content:"";position:absolute;inset:0;z-index:-2;
+      background:
+        linear-gradient(90deg, rgba(5,8,6,.88) 0%, rgba(5,8,6,.50) 48%, rgba(5,8,6,.78) 100%),
+        url('https://digiylyfe.net/wp-content/uploads/2026/07/ChatGPT-Image-5-juil.-2026-20_30_50.png') center/cover no-repeat;
+      opacity:.95;
+    }
+    .hero:after{
+      content:"";position:absolute;inset:auto 0 0 0;height:220px;z-index:-1;
+      background:linear-gradient(0deg,var(--bg),transparent);
+    }
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:34px;align-items:center}
+    .kicker{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:9px 13px;border:1px solid var(--line);border-radius:999px;
+      background:rgba(255,247,230,.08);color:var(--gold2);font-weight:800;font-size:13px;
+      box-shadow:0 0 25px rgba(244,201,106,.11);
+    }
+    h1{
+      margin:22px 0 18px;
+      font-size:clamp(42px,8vw,86px);
+      line-height:.92;
+      letter-spacing:-.07em;
+      text-wrap:balance;
+    }
+    .gradient{
+      background:linear-gradient(120deg,#fff7e6 0%,#ffdf91 45%,#36d7d7 100%);
+      -webkit-background-clip:text;background-clip:text;color:transparent;
+    }
+    .lead{font-size:clamp(18px,2vw,24px);max-width:760px;color:#f4e8ce;margin:0 0 22px;text-wrap:balance}
+    .truth{
+      margin:26px 0 0;padding:18px 20px;border-radius:22px;
+      background:rgba(8,16,11,.58);border:1px solid rgba(255,223,145,.24);
+      box-shadow:var(--shadow);max-width:760px;
+    }
+    .truth strong{color:var(--gold2)}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:14px 18px;border-radius:999px;font-weight:900;
+      border:1px solid rgba(255,223,145,.34);
+      transition:.18s transform ease,.18s background ease;
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .btn.primary{background:linear-gradient(135deg,var(--gold),#ffefbd);color:#221305;box-shadow:0 12px 36px rgba(244,201,106,.22)}
+    .btn.secondary{background:rgba(255,247,230,.08);color:var(--ink)}
+
+    .visual-card{
+      border-radius:var(--radius);overflow:hidden;border:1px solid rgba(255,223,145,.25);
+      background:rgba(255,247,230,.07);box-shadow:var(--shadow);
+    }
+    .visual-card img{display:block;width:100%;height:auto}
+    .caption{padding:14px 16px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+
+    section{padding:72px 0}
+    .section-title{font-size:clamp(30px,4vw,54px);line-height:1;margin:0 0 14px;letter-spacing:-.045em;text-wrap:balance}
+    .section-lead{color:var(--muted);font-size:18px;max-width:850px;margin:0 0 30px}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .card{
+      padding:22px;border-radius:22px;background:var(--card);border:1px solid var(--line);
+      min-height:176px;box-shadow:0 16px 50px rgba(0,0,0,.20);
+    }
+    .icon{font-size:30px;margin-bottom:12px}
+    .card h3{margin:0 0 8px;font-size:20px}
+    .card p{margin:0;color:var(--muted);font-size:15px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}
+    .panel{
+      padding:28px;border-radius:var(--radius);background:rgba(255,247,230,.075);border:1px solid var(--line);
+      box-shadow:var(--shadow);
+    }
+    .panel h3{font-size:28px;margin:0 0 10px;letter-spacing:-.03em}
+    .panel p,.panel li{color:var(--muted)}
+    .panel ul{padding-left:20px;margin:15px 0 0}
+    .quote{
+      font-size:clamp(26px,4vw,48px);line-height:1.08;letter-spacing:-.04em;margin:0;
+    }
+    .quote small{display:block;color:var(--gold2);font-size:18px;margin-top:18px;letter-spacing:0;line-height:1.4}
+    .video-box{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:#000;box-shadow:var(--shadow)}
+    video{display:block;width:100%;height:auto;background:#000}
+    .steps{counter-reset:step;display:grid;gap:14px}
+    .step{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;padding:18px;border-radius:20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10)}
+    .step:before{counter-increment:step;content:counter(step);width:38px;height:38px;border-radius:14px;display:grid;place-items:center;font-weight:1000;background:rgba(244,201,106,.18);color:var(--gold2);border:1px solid rgba(244,201,106,.28)}
+    .step strong{display:block;margin-bottom:4px}.step span{color:var(--muted)}
+    .footer{padding:34px 0 48px;border-top:1px solid var(--line);color:var(--muted)}
+    .footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .tiny{font-size:13px;color:#bcae90}
+
+    @media (max-width:920px){
+      .hero-grid,.split{grid-template-columns:1fr}
+      .cards{grid-template-columns:repeat(2,1fr)}
+      .visual-card{max-width:680px}
+    }
+    @media (max-width:620px){
+      .nav{align-items:flex-start;flex-direction:column;padding:14px 0}
+      .navlinks{justify-content:flex-start}
+      .hero{padding-top:34px}
+      .cards{grid-template-columns:1fr}
+      .btn{width:100%}
+      section{padding:54px 0}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Retour accueil SOLUTION DIGIYLYFE">
+        <span class="brand-mark">💡</span>
+        <span>SOLUTION DIGIYLYFE</span>
+      </a>
+      <nav class="navlinks" aria-label="Navigation principale">
+        <a href="#source">La source</a>
+        <a href="#metiers">Métiers</a>
+        <a href="#clip">Clip</a>
+        <a href="#route">Route terrain</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="SOLUTION DIGIYLYFE">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="kicker">💧 Oasis numérique · 0% commission · Terrain d’abord</span>
+          <h1><span class="gradient">La solution existe.</span><br/>Il faut la rendre visible.</h1>
+          <p class="lead">
+            Dans le désert numérique, DIGIYLYFE ouvre une source qui appartient au terrain :
+            loueurs, vendeurs, chauffeurs, bâtisseurs, services locaux et professionnels indépendants.
+          </p>
+          <div class="truth">
+            <strong>Le problème n’est plus seulement technique.</strong><br/>
+            La source est là. Le chantier maintenant, c’est la signalisation : QR, preuves, clips, relais terrain,
+            fiches professionnelles et partage direct.
+          </div>
+          <div class="cta">
+            <a class="btn primary" href="#clip">▶ Voir le clip</a>
+            <a class="btn secondary" href="https://digiylyfe.com/" rel="noopener">🌍 Ouvrir DIGIYLYFE</a>
+          </div>
+        </div>
+        <figure class="visual-card">
+          <img src="https://digiylyfe.net/wp-content/uploads/2026/07/ChatGPT-Image-5-juil.-2026-20_30_50.png" alt="Oasis dans le désert avec l’indication Solution DIGIYLYFE et une ampoule lumineuse" loading="eager" />
+          <figcaption class="caption">Promesse en lumière, base gravée dans la pierre : DIGIYLYFE comme source durable du terrain.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="source">
+      <div class="wrap split">
+        <div class="panel">
+          <h2 class="section-title">Une source qui appartient au terrain.</h2>
+          <p class="section-lead">
+            DIGIYLYFE ne vient pas aspirer le client, la donnée et l’argent du professionnel. La plateforme organise la visibilité,
+            le contact, la réservation, la commande et le paiement direct, sans retirer la main au métier.
+          </p>
+          <ul>
+            <li><strong>Visibilité locale et mondiale</strong> pour les professionnels enracinés.</li>
+            <li><strong>QR direct</strong> pour passer du monde physique au lien digital.</li>
+            <li><strong>Contact direct</strong> via téléphone, WhatsApp, fiche et page métier.</li>
+            <li><strong>Paiement direct au pro</strong> : Wave, cash, virement ou méthode choisie par le terrain.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <p class="quote">
+            “Nous ne manquons pas de valeur. Nous manquons encore de visibilité.”
+            <small>Le cap : baliser les pistes, montrer les preuves, faire scanner, faire parler le terrain.</small>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="metiers">
+      <div class="wrap">
+        <h2 class="section-title">Les métiers concernés</h2>
+        <p class="section-lead">La solution parle aux activités réelles : celles qui louent, vendent, transportent, construisent, servent et nourrissent l’économie locale.</p>
+        <div class="cards">
+          <article class="card"><div class="icon">🏠</div><h3>Loueurs</h3><p>Logements, chambres, villas, hébergements, séjours, réservations directes.</p></article>
+          <article class="card"><div class="icon">🛍️</div><h3>Vendeurs</h3><p>Boutiques, produits, market local, commandes, fiches et partage WhatsApp.</p></article>
+          <article class="card"><div class="icon">🚕</div><h3>Chauffeurs</h3><p>Trajets, AIBD, Saly, Dakar, clients directs, preuve et visibilité locale.</p></article>
+          <article class="card"><div class="icon">🧱</div><h3>Bâtisseurs</h3><p>Artisans, services terrain, construction, dépannage, mise en relation claire.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clip">
+      <div class="wrap split">
+        <div>
+          <h2 class="section-title">Le clip de signalisation</h2>
+          <p class="section-lead">
+            Ce clip sert à réveiller l’intention : en quelques secondes, il montre le problème, la source et la solution.
+            Il peut vivre sur WhatsApp, TikTok, Reels, Facebook, une page vitrine ou un QR terrain.
+          </p>
+          <div class="steps">
+            <div class="step"><div><strong>1. Désert numérique</strong><span>Beaucoup cherchent une issue, mais les routes sont floues.</span></div></div>
+            <div class="step"><div><strong>2. Source DIGIYLYFE</strong><span>Une oasis métier : visibilité, QR, paiement direct, contact humain.</span></div></div>
+            <div class="step"><div><strong>3. Signalisation terrain</strong><span>Le vrai chantier : rendre la source visible, partageable et vérifiable.</span></div></div>
+          </div>
+        </div>
+        <div class="video-box">
+          <video controls playsinline preload="metadata" poster="https://digiylyfe.net/wp-content/uploads/2026/07/ChatGPT-Image-5-juil.-2026-20_30_50.png">
+            <source src="./digiylyfe-oasis-clip-CORRIGE-lisible-son-booste.mp4" type="video/mp4" />
+            Votre navigateur ne peut pas lire cette vidéo. Ajoutez le fichier MP4 dans le dépôt ou ouvrez DIGIYLYFE.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="route">
+      <div class="wrap split">
+        <div class="panel">
+          <h2 class="section-title">La route simple</h2>
+          <div class="steps">
+            <div class="step"><div><strong>Montrer un profil réel</strong><span>Un loueur, un vendeur, un chauffeur, un bâtisseur : preuve avant discours.</span></div></div>
+            <div class="step"><div><strong>Poser un QR visible</strong><span>Sur affiche, boutique, véhicule, carte, page, statut WhatsApp.</span></div></div>
+            <div class="step"><div><strong>Déclencher le contact direct</strong><span>Le client clique, scanne, appelle, réserve ou écrit au professionnel.</span></div></div>
+            <div class="step"><div><strong>Garder l’argent au terrain</strong><span>Pas de commission cachée : le paiement reste dans la main du pro.</span></div></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Phrase courte à retenir</h3>
+          <p class="quote">La solution existe.<br/>Maintenant, il faut la rendre visible.</p>
+          <p class="tiny">Version terrain : “Scanne. Vois. Contacte. Paie direct.”</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong>SOLUTION DIGIYLYFE</strong><br/>
+        <span class="tiny">Une source numérique pour l’indépendance des métiers du terrain.</span>
+      </div>
+      <div class="tiny">© 2026 DIGIYLYFE · 0% commission · Paiement direct au professionnel</div>
+    </div>
+  </footer>
+</body>
+</html>
